@@ -5,9 +5,9 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
+  --primary-color: #75ADDF   ;
+  --secondary-color: #149ED0 ;
+  --accent1-color: #EBE8EA;
   --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
@@ -95,12 +95,12 @@ p {
 }
 
 p.colored {
-  background-color: var(--paragraph-background-color);
+  background-color: #149ED0;
   color: var(--paragraph-color-on-color);
 }
 
 nav {
-  background-color: var(--nav-background-color);
+  background-color: #75ADDF;
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
