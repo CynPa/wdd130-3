@@ -1,0 +1,39 @@
+.home-river{
+    display: grid ;
+    grid-template-columns: 1fr 4fr 1fr ;
+}
+
+
+.rivers-section-img{
+    
+
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+
+.rivers-section-text{
+    grid-column: 3/5;
+    grid-row: 2/4;
+}
+
+.rivers-img{
+    border: 10px solid #d9c2a3;
+    transition: transform .2s;
+    box-shadow: 4px 4px 6px #6f7364;
+    width: 40px;
+}
+
+.rivers-img:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+.rivers-section-img{
+    margin: 200px 0;
+    }
+
+    .rivers-img{
+        width: 100%;
+    }
+
